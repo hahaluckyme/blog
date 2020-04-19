@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "espeon's TG Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "espeon"
+description              : "generic description"
+url                      : "https://blog.gender.tf/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -51,14 +51,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : false # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -85,38 +85,38 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-162934767-1"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "espeon"
+  avatar           : "/assets/images/sentypurr.jpg"
+  bio              : "hacker girl, TG/TSF enthusiast, pfp: @sentypurr"
+  # location         : "Somewhere"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "re:Dreamer Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gender.tf/"
+    - label: "re:Dreamer"
+      icon: "fas fa-fw fa-book"
+      url: "https://game.gender.tf/"
+    - label: "re:Dreamer Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://patreon.com/dreamteamstudio"
+    - label: "TS Ero Trap Dungeon"
+      icon: "fas fa-fw fa-book"
+      url: "https://tfgames.site/phpbb3/viewtopic.php?f=6&t=13775"
+    - label: "JP TL Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://gender.tf"
+    - label: "JP TL Commissions"
+      icon: "fas fa-fw fa-yen-sign"
+      url: "https://espeon.gender.tf/"
 
 # Site Footer
 footer:
@@ -279,3 +279,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+head_scripts:
+  - https://code.jquery.com/jquery-3.2.1.min.js
