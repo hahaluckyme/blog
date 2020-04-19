@@ -3,12 +3,12 @@ layout: archive
 ---
 
 <div style="font-size: 0.8em;">
-{{ page.date | date: "%a %b %-d, %Y" }}
-
-{% if page.updated %}
-  (updated {{ page.updated | date: "%a %b %-d, %Y" }})
-{% endif %}
-
+  <p><i class="far fa-clock"></i>
+    {{ page.date | date: "%a %b %-d, %Y" }}
+    {% if page.updated %}
+      (updated {{ page.updated | date: "%a %b %-d, %Y" }})
+    {% endif %}
+  </p>
 </div>
 
 {{ content }}
